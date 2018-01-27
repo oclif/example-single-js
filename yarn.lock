@@ -162,9 +162,9 @@
     tslint "^5.9.1"
     tslint-xo "^0.5.0"
 
-"@dxcli/dev@^2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@dxcli/dev/-/dev-2.0.3.tgz#84e3fc690d80a832acf3dd9fab6b59122a08ad60"
+"@dxcli/dev@^2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@dxcli/dev/-/dev-2.0.4.tgz#a86a2ad1ee98a533468bd16a711af3cd6597d58a"
   dependencies:
     "@dxcli/dev-nyc-config" "^0.0.3"
     "@dxcli/dev-semantic-release" "^0.2.0"
@@ -179,14 +179,9 @@
     "@types/read-pkg" "^3.0.0"
     "@types/strip-ansi" "^3.0.0"
     "@types/supports-color" "^3.1.0"
-    chai "^4.1.2"
     eslint "^4.16.0"
-    eslint-config-dxcli "^1.1.4"
-    lodash "^4.17.4"
-    mocha "^5.0.0"
+    eslint-config-dxcli "^1.1.5"
     mocha-junit-reporter "^1.17.0"
-    nps "^5.7.1"
-    nps-utils "^1.5.0"
     nyc "^11.4.1"
     ts-node "^4.1.0"
     typescript "^2.6.2"
@@ -1486,9 +1481,9 @@ eslint-ast-utils@^1.0.0:
     lodash.get "^4.4.2"
     lodash.zip "^4.2.0"
 
-eslint-config-dxcli@^1.1.4:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/eslint-config-dxcli/-/eslint-config-dxcli-1.1.4.tgz#e74a6be724d4de72f116d87f300afb5aacd25fe9"
+eslint-config-dxcli@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/eslint-config-dxcli/-/eslint-config-dxcli-1.1.5.tgz#ac7bf9acaef94bbeb34bb57ff4ffbcbc71ea475a"
   dependencies:
     eslint-config-xo-space "^0.17.0"
     eslint-plugin-node "^5.2.1"
