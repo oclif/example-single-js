@@ -1,3 +1,11 @@
+<a name="0.0.6"></a>
+## [0.0.6](https://github.com/dxcli/example-single-cli-javascript/compare/772b0f617cdb681c15c75e2208f65344d35420f6...v0.0.6) (2018-01-27)
+
+
+### Bug Fixes
+
+* create-dxcli 0.26.0 ([b8e8e77](https://github.com/dxcli/example-single-cli-javascript/commit/b8e8e77))
+
 <a name="0.0.5"></a>
 ## [0.0.5](https://github.com/dxcli/example-single-cli-javascript/compare/786a636038b9a5896e8ae716481152e950c24439...v0.0.5) (2018-01-27)
 
