@@ -1,7 +1,7 @@
 {
   "name": "@dxcli/example-single-js",
   "description": "example single-command CLI built with dxcli",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "author": "Jeff Dickey @jdxcode",
   "bugs": "https://github.com/dxcli/example-single-js/issues",
   "dependencies": {
