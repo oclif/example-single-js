@@ -1,3 +1,14 @@
+<a name="0.1.2"></a>
+## [0.1.2](https://github.com/dxcli/example-single-js/compare/914d0f4f02625769875d5cb7f073d357222494b7...v0.1.2) (2018-01-29)
+
+
+### Bug Fixes
+
+* create-dxcli v0.28.2 ([6131830](https://github.com/dxcli/example-single-js/commit/6131830))
+* create-dxcli v0.28.3 ([d8c8d1a](https://github.com/dxcli/example-single-js/commit/d8c8d1a))
+* create-dxcli v0.28.4 ([01e89e2](https://github.com/dxcli/example-single-js/commit/01e89e2))
+* create-dxcli v0.28.5 ([9e23d77](https://github.com/dxcli/example-single-js/commit/9e23d77))
+
 <a name="0.1.1"></a>
 ## [0.1.1](https://github.com/dxcli/example-single-js/compare/d765fdce7befeef25a736e79b2ef6141e363f2a3...v0.1.1) (2018-01-29)
 
