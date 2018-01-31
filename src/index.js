@@ -1,15 +1,15 @@
-const {Command, flags} = require('@dxcli/command')
+const {Command, flags} = require('@anycli/command')
 const {cli} = require('cli-ux')
 
-class DxcliExampleSingleJsCommand extends Command {
+class AnycliExampleSingleJsCommand extends Command {
   async run() {
     const name = this.flags.name || 'world'
     cli.log(`hello ${name}!`)
   }
 }
 
-DxcliExampleSingleJsCommand.flags = {
+AnycliExampleSingleJsCommand.flags = {
   name: flags.string({char: 'n', description: 'name to print'}),
 }
 
-module.exports = DxcliExampleSingleJsCommand
+module.exports = AnycliExampleSingleJsCommand
