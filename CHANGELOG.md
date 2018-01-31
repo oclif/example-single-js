@@ -1,3 +1,11 @@
+<a name="0.4.0"></a>
+# [0.4.0](https://github.com/anycli/example-single-js/compare/2359f9844878f08ac02996de1c5058b3b8c115de...v0.4.0) (2018-01-31)
+
+
+### Features
+
+* anycli v1.0.0 ([1915c31](https://github.com/anycli/example-single-js/commit/1915c31))
+
 <a name="0.3.0"></a>
 # [0.3.0](https://github.com/anycli/example-single-js/compare/8843120a9c0e30740c52e8ec5d7386c46738cc34...v0.3.0) (2018-01-31)
 
