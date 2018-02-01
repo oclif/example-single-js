@@ -1,18 +1,20 @@
 const {expect, test} = require('@anycli/test')
 const cmd = require('..')
 
-describe('command', () => {
+const command = 'hello'
+
+describe(command, () => {
   test
     .stdout()
     .do(() => cmd.run([]))
-    .it('says hello world!', ctx => {
-      expect(ctx.stdout).to.equal('hello world!\n')
+    .it('runs hello', ctx => {
+      expect(ctx.stdout).to.contain('hello world from hello!')
     })
 
   test
     .stdout()
     .do(() => cmd.run(['--name', 'jeff']))
-    .it('says hello jeff!', ctx => {
-      expect(ctx.stdout).to.equal('hello jeff!\n')
+    .it('runs hello --name jeff', ctx => {
+      expect(ctx.stdout).to.contain('hello jeff from hello!')
     })
 })
