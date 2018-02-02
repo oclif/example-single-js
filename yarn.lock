@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@anycli/command@^0.3.6":
-  version "0.3.6"
-  resolved "https://registry.yarnpkg.com/@anycli/command/-/command-0.3.6.tgz#02aadc38cee7bc4acb2069732cb1591dfc339c29"
+"@anycli/command@^0.3.7":
+  version "0.3.7"
+  resolved "https://registry.yarnpkg.com/@anycli/command/-/command-0.3.7.tgz#293c366ed8227fcdc675e278a46d8f93435526a5"
   dependencies:
     "@anycli/parser" "^3.0.4"
-    cli-ux "^3.3.12"
+    cli-ux "^3.3.13"
     debug "^3.1.0"
     lodash "^4.17.4"
     tslib "^1.9.0"
@@ -31,14 +31,14 @@
     chalk "^2.3.0"
     lodash "^4.17.4"
 
-"@anycli/plugin-help@^0.3.7":
-  version "0.3.7"
-  resolved "https://registry.yarnpkg.com/@anycli/plugin-help/-/plugin-help-0.3.7.tgz#aefde35b0b49b1598e893ed83910955bd24419ef"
+"@anycli/plugin-help@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@anycli/plugin-help/-/plugin-help-0.4.1.tgz#ee8aaaa8cf611f77d10725a6f5e27163e4ff95c4"
   dependencies:
-    "@anycli/command" "^0.3.6"
+    "@anycli/command" "^0.3.7"
     "@anycli/screen" "^0.0.3"
     chalk "^2.3.0"
-    cli-ux "^3.3.12"
+    cli-ux "^3.3.13"
     indent-string "^3.2.0"
     lodash "^4.17.4"
     string-width "^2.1.1"
@@ -238,7 +238,7 @@ cli-cursor@^2.1.0:
   dependencies:
     restore-cursor "^2.0.0"
 
-cli-ux@^3.3.10, cli-ux@^3.3.12, cli-ux@^3.3.13:
+cli-ux@^3.3.10, cli-ux@^3.3.13:
   version "3.3.13"
   resolved "https://registry.yarnpkg.com/cli-ux/-/cli-ux-3.3.13.tgz#123e0c7a29d1f743447b919500a9055486992df6"
   dependencies:
