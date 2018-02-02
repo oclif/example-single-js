@@ -3,6 +3,12 @@
   "description": "example single-command CLI built with dxcli",
   "version": "0.8.8",
   "author": "Jeff Dickey @jdxcode",
+  "anycli": {
+    "bin": "example-single-js"
+  },
+  "bin": {
+    "example-single-js": "./bin/run"
+  },
   "bugs": "https://github.com/anycli/example-single-js/issues",
   "dependencies": {
     "@anycli/command": "^0.3.6",
@@ -21,6 +27,7 @@
     "node": ">=8.0.0"
   },
   "files": [
+    "/bin",
     "/src"
   ],
   "homepage": "https://github.com/anycli/example-single-js",
