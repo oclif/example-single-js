@@ -1,9 +1,7 @@
 const {expect, test} = require('@anycli/test')
 const cmd = require('..')
 
-const command = '@anycli/example-single-js'
-
-describe(command, () => {
+describe('@anycli/example-single-js', () => {
   test
   .stdout()
   .do(() => cmd.run([]))
