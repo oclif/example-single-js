@@ -1,10 +1,10 @@
-const {Command, flags, parse} = require('@anycli/command')
+const {Command, flags} = require('@anycli/command')
 const {cli} = require('cli-ux')
 
 class AnycliExampleSingleJsCommand extends Command {
   async run() {
-    const options = parse(this.argv, AnycliExampleSingleJsCommand)
-    const name = options.flags.name || 'world'
+    const {flags} = this.parse(AnycliExampleSingleJsCommand)
+    const name = flags.name || 'world'
     cli.log(`hello ${name} from @anycli/example-single-js!`)
   }
 }
