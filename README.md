@@ -11,3 +11,7 @@ example single-command CLI built with dxcli
 [![Known Vulnerabilities](https://snyk.io/test/npm/@oclif/example-single-js/badge.svg)](https://snyk.io/test/npm/@oclif/example-single-js)
 [![Downloads/week](https://img.shields.io/npm/dw/@oclif/example-single-js.svg)](https://npmjs.org/package/@oclif/example-single-js)
 [![License](https://img.shields.io/npm/l/@oclif/example-single-js.svg)](https://github.com/oclif/example-single-js/blob/master/package.json)
+
+<!-- install -->
+<!-- usage -->
+<!-- commands -->
