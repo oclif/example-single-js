@@ -1,26 +1,23 @@
 {
-  "name": "@anycli/example-single-js",
+  "name": "@oclif/example-single-js",
   "description": "example single-command CLI built with dxcli",
   "version": "0.9.17",
   "author": "Jeff Dickey @jdxcode",
-  "anycli": {
-    "bin": "example-single-js"
-  },
   "bin": {
     "example-single-js": "./bin/run"
   },
-  "bugs": "https://github.com/anycli/example-single-js/issues",
+  "bugs": "https://github.com/oclif/example-single-js/issues",
   "dependencies": {
-    "@anycli/command": "^1.2.19",
-    "@anycli/config": "^1.3.45",
-    "@anycli/errors": "^0.2.2",
-    "@anycli/plugin-help": "^0.7.2"
+    "@oclif/command": "^1.2.22",
+    "@oclif/config": "^1.3.47",
+    "@oclif/errors": "^1.0.1",
+    "@oclif/plugin-help": "^0.7.4"
   },
   "devDependencies": {
-    "@anycli/test": "^0.10.15",
+    "@oclif/test": "^0.10.16",
     "chai": "^4.1.2",
     "eslint": "^4.17.0",
-    "eslint-config-anycli": "^1.3.2",
+    "eslint-config-oclif": "^1.3.4",
     "mocha": "^5.0.0"
   },
   "engines": {
@@ -30,13 +27,16 @@
     "/bin",
     "/src"
   ],
-  "homepage": "https://github.com/anycli/example-single-js",
+  "homepage": "https://github.com/oclif/example-single-js",
   "keywords": [
-    "anycli"
+    "oclif"
   ],
   "license": "MIT",
   "main": "src/index.js",
-  "repository": "anycli/example-single-js",
+  "oclif": {
+    "bin": "example-single-js"
+  },
+  "repository": "oclif/example-single-js",
   "scripts": {
     "lint": "eslint .",
     "posttest": "yarn run lint",

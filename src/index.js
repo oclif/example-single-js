@@ -1,14 +1,14 @@
-const {Command, flags} = require('@anycli/command')
+const {Command, flags} = require('@oclif/command')
 
-class AnycliExampleSingleJsCommand extends Command {
+class OclifExampleSingleJsCommand extends Command {
   async run() {
-    const {flags} = this.parse(AnycliExampleSingleJsCommand)
+    const {flags} = this.parse(OclifExampleSingleJsCommand)
     const name = flags.name || 'world'
-    this.log(`hello ${name} from @anycli/example-single-js!`)
+    this.log(`hello ${name} from @oclif/example-single-js!`)
   }
 }
 
-AnycliExampleSingleJsCommand.flags = {
+OclifExampleSingleJsCommand.flags = {
   // add --version flag to show CLI version
   version: flags.version(),
   // add --help flag to show CLI version
@@ -16,4 +16,4 @@ AnycliExampleSingleJsCommand.flags = {
   name: flags.string({char: 'n', description: 'name to print'}),
 }
 
-module.exports = AnycliExampleSingleJsCommand
+module.exports = OclifExampleSingleJsCommand
