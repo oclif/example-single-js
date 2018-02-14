@@ -8,6 +8,12 @@ class OclifExampleSingleJsCommand extends Command {
   }
 }
 
+OclifExampleSingleJsCommand.description = `
+Describe the command here
+...
+Extra documentation goes here
+`
+
 OclifExampleSingleJsCommand.flags = {
   // add --version flag to show CLI version
   version: flags.version(),
