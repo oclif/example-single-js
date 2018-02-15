@@ -4,7 +4,7 @@ class OclifExampleSingleJsCommand extends Command {
   async run() {
     const {flags} = this.parse(OclifExampleSingleJsCommand)
     const name = flags.name || 'world'
-    this.log(`hello ${name} from @oclif/example-single-js!`)
+    this.log(`hello ${name} from ./src/@oclif/example-single-js.js!`)
   }
 }
 
