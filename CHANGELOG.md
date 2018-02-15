@@ -1,3 +1,11 @@
+<a name="1.2.5"></a>
+## [1.2.5](https://github.com/oclif/example-single-js/compare/fe6750c37b2a0e49314a14c54dbfd5bbe3e09956...v1.2.5) (2018-02-15)
+
+
+### Bug Fixes
+
+* oclif v1.2.8 ([3f8f528](https://github.com/oclif/example-single-js/commit/3f8f528))
+
 <a name="1.2.4"></a>
 ## [1.2.4](https://github.com/oclif/example-single-js/compare/f4703fdaa6bfbaca30626204c2cd960afe51a75a...v1.2.4) (2018-02-15)
 
