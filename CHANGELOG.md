@@ -1,3 +1,11 @@
+<a name="1.3.6"></a>
+## [1.3.6](https://github.com/oclif/example-single-js/compare/d8ea49836a54ef525e0da3f6334c327478977acb...v1.3.6) (2018-02-28)
+
+
+### Bug Fixes
+
+* oclif v1.3.8 ([04ad134](https://github.com/oclif/example-single-js/commit/04ad134))
+
 <a name="1.3.5"></a>
 ## [1.3.5](https://github.com/oclif/example-single-js/compare/2da746a7cb21ae30538421e574b8a5748b77c8ac...v1.3.5) (2018-02-17)
 
