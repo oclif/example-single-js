@@ -13,6 +13,5 @@ example single-command CLI built with dxcli
 [![License](https://img.shields.io/npm/l/@oclif/example-single-js.svg)](https://github.com/oclif/example-single-js/blob/master/package.json)
 
 <!-- toc -->
-<!-- install -->
 <!-- usage -->
 <!-- commands -->
