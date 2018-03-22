@@ -38,7 +38,7 @@
   "repository": "oclif/example-single-js",
   "scripts": {
     "lint": "eslint .",
-    "posttest": "yarn run lint",
+    "posttest": "npm run lint",
     "test": "mocha --forbid-only \"test/**/*.test.js\""
   }
 }
