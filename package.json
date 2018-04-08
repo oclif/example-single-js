@@ -8,8 +8,8 @@
   },
   "bugs": "https://github.com/oclif/example-single-js/issues",
   "dependencies": {
-    "@oclif/command": "^1.4.8",
-    "@oclif/config": "^1.4.0",
+    "@oclif/command": "^1.4.9",
+    "@oclif/config": "^1.4.3",
     "@oclif/plugin-help": "^1.2.3"
   },
   "devDependencies": {
