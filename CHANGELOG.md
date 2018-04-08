@@ -1,3 +1,11 @@
+<a name="1.7.16"></a>
+## [1.7.16](https://github.com/oclif/example-single-js/compare/v1.7.15...v1.7.16) (2018-04-08)
+
+
+### Bug Fixes
+
+* oclif v1.7.21 ([c5aa75c](https://github.com/oclif/example-single-js/commit/c5aa75c))
+
 <a name="1.7.15"></a>
 ## [1.7.15](https://github.com/oclif/example-single-js/compare/v1.7.14...v1.7.15) (2018-04-08)
 
