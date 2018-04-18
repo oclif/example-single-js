@@ -17,7 +17,8 @@
     "chai": "4",
     "eslint": "4",
     "eslint-config-oclif": "1",
-    "mocha": "5"
+    "mocha": "5",
+    "nyc": "11"
   },
   "engines": {
     "node": ">=8.0.0"
@@ -38,6 +39,6 @@
   "repository": "oclif/example-single-js",
   "scripts": {
     "posttest": "eslint .",
-    "test": "mocha --forbid-only \"test/**/*.test.js\""
+    "test": "nyc mocha --forbid-only \"test/**/*.test.js\""
   }
 }
