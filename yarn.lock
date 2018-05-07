@@ -2,24 +2,24 @@
 # yarn lockfile v1
 
 
-"@oclif/command@1", "@oclif/command@^1.4.20":
-  version "1.4.20"
-  resolved "https://registry.yarnpkg.com/@oclif/command/-/command-1.4.20.tgz#7368c9c9f7f596fc8efffd7ec89118feed5203d8"
+"@oclif/command@^1", "@oclif/command@^1.4.20":
+  version "1.4.21"
+  resolved "https://registry.yarnpkg.com/@oclif/command/-/command-1.4.21.tgz#e45f252f8c375ad6e24a0a5f908e6aa692c5c56a"
   dependencies:
-    "@oclif/errors" "^1.0.8"
+    "@oclif/errors" "^1.0.9"
     "@oclif/parser" "^3.3.3"
     debug "^3.1.0"
     semver "^5.5.0"
 
-"@oclif/config@1":
+"@oclif/config@^1":
   version "1.6.17"
   resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.6.17.tgz#e9608f56e5acd49fcaf3bbfcc3e8818d81b1ba12"
   dependencies:
     debug "^3.1.0"
 
-"@oclif/errors@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@oclif/errors/-/errors-1.0.8.tgz#2f8239267506bb7c3f5fd776144c2686e5b7fff7"
+"@oclif/errors@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@oclif/errors/-/errors-1.0.9.tgz#6fe3afd8e7683c436df63674550899adec10c81c"
   dependencies:
     clean-stack "^1.3.0"
     fs-extra "^6.0.0"
@@ -38,7 +38,7 @@
     "@oclif/linewrap" "^1.0.0"
     chalk "^2.4.0"
 
-"@oclif/plugin-help@1":
+"@oclif/plugin-help@^1":
   version "1.2.10"
   resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-1.2.10.tgz#c2bb2b8f09027bf5a55e96346b8525d4dcff8c3e"
   dependencies:
@@ -50,7 +50,7 @@
     widest-line "^2.0.0"
     wrap-ansi "^3.0.1"
 
-"@oclif/test@1":
+"@oclif/test@^1":
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/@oclif/test/-/test-1.0.6.tgz#45dbab5610caed9f178e33ff6b416f6ce2dc245c"
   dependencies:
@@ -365,7 +365,7 @@ center-align@^0.1.1:
     align-text "^0.1.3"
     lazy-cache "^1.0.3"
 
-chai@4:
+chai@^4:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/chai/-/chai-4.1.2.tgz#0f64584ba642f0f2ace2806279f4f06ca23ad73c"
   dependencies:
@@ -636,7 +636,7 @@ eslint-ast-utils@^1.0.0:
     lodash.get "^4.4.2"
     lodash.zip "^4.2.0"
 
-eslint-config-oclif@1:
+eslint-config-oclif@^1:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/eslint-config-oclif/-/eslint-config-oclif-1.4.0.tgz#a165329e015bc3841d23bd374d70c2f96dc1078c"
   dependencies:
@@ -694,7 +694,7 @@ eslint-visitor-keys@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#3f3180fb2e291017716acb4c9d6d5b5c34a6a81d"
 
-eslint@4:
+eslint@^4:
   version "4.19.1"
   resolved "https://registry.yarnpkg.com/eslint/-/eslint-4.19.1.tgz#32d1d653e1d90408854bfb296f076ec7e186a300"
   dependencies:
@@ -1099,10 +1099,10 @@ hosted-git-info@^2.1.4:
   resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.6.0.tgz#23235b29ab230c576aab0d4f13fc046b0b038222"
 
 iconv-lite@^0.4.17:
-  version "0.4.21"
-  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.21.tgz#c47f8733d02171189ebc4a400f3218d348094798"
+  version "0.4.22"
+  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.22.tgz#c6b16b9d05bc6c307dc9303a820412995d2eea95"
   dependencies:
-    safer-buffer "^2.1.0"
+    safer-buffer ">= 2.1.2 < 3"
 
 ignore@^3.3.3, ignore@^3.3.6:
   version "3.3.8"
@@ -1641,7 +1641,7 @@ mkdirp@0.5.1, mkdirp@^0.5.0, mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
-mocha@5:
+mocha@^5:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/mocha/-/mocha-5.1.1.tgz#b774c75609dac05eb48f4d9ba1d827b97fde8a7b"
   dependencies:
@@ -1711,7 +1711,7 @@ number-is-nan@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
 
-nyc@11:
+nyc@^11:
   version "11.7.1"
   resolved "https://registry.yarnpkg.com/nyc/-/nyc-11.7.1.tgz#7cb0a422e501b88ff2c1634341dec2560299d67b"
   dependencies:
@@ -2104,7 +2104,7 @@ safe-regex@^1.1.0:
   dependencies:
     ret "~0.1.10"
 
-safer-buffer@^2.1.0:
+"safer-buffer@>= 2.1.2 < 3":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
 
