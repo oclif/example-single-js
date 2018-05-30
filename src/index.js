@@ -8,8 +8,7 @@ class OclifExampleSingleJsCommand extends Command {
   }
 }
 
-OclifExampleSingleJsCommand.description = `
-Describe the command here
+OclifExampleSingleJsCommand.description = `Describe the command here
 ...
 Extra documentation goes here
 `
