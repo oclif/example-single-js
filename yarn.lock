@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-"@oclif/command@^1", "@oclif/command@^1.4.29":
+"@oclif/command@^1", "@oclif/command@^1.4.30":
   version "1.4.30"
   resolved "https://registry.yarnpkg.com/@oclif/command/-/command-1.4.30.tgz#631eb423182517dc38711d6270aecb621bfa24a9"
   dependencies:
@@ -38,11 +38,11 @@
     "@oclif/linewrap" "^1.0.0"
     chalk "^2.4.1"
 
-"@oclif/plugin-help@^1":
-  version "1.2.11"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-1.2.11.tgz#e6413a6009519230bc4c7e7fe45d8e139939e657"
+"@oclif/plugin-help@^2":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-2.0.4.tgz#32cf1dc7696f626a6065109a17b0f061adb14243"
   dependencies:
-    "@oclif/command" "^1.4.29"
+    "@oclif/command" "^1.4.30"
     chalk "^2.4.1"
     indent-string "^3.2.0"
     lodash.template "^4.4.0"
@@ -67,8 +67,8 @@ acorn@^3.0.4:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-3.3.0.tgz#45e37fb39e8da3f25baee3ff5369e2bb5f22017a"
 
 acorn@^5.5.0:
-  version "5.5.3"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.5.3.tgz#f473dd47e0277a08e28e9bec5aeeb04751f0b8c9"
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-5.6.0.tgz#572bedb377a1c61b7a289e72b8c5cfeb7baaf0bf"
 
 ajv-keywords@^2.1.0:
   version "2.1.1"
@@ -619,8 +619,8 @@ eslint-ast-utils@^1.0.0:
     lodash.zip "^4.2.0"
 
 eslint-config-oclif@^1:
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-oclif/-/eslint-config-oclif-1.5.0.tgz#9c41a7d94493e06c1692554b3da329a96064cec9"
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/eslint-config-oclif/-/eslint-config-oclif-1.5.1.tgz#e8c5f31b8bb7383a666a506c3f6e91dbc861ecc5"
   dependencies:
     eslint-config-xo-space "^0.18.0"
     eslint-plugin-mocha "^5.0.0"
@@ -1285,8 +1285,8 @@ istanbul-lib-source-maps@^1.2.3:
     source-map "^0.5.3"
 
 istanbul-reports@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/istanbul-reports/-/istanbul-reports-1.4.0.tgz#3d7b44b912ecbe7652a603662b962120739646a1"
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/istanbul-reports/-/istanbul-reports-1.4.1.tgz#4f2e8e928aa7a05d1da6c427d4098b2655ec7334"
   dependencies:
     handlebars "^4.0.3"
 
