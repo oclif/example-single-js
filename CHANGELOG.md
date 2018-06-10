@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/oclif/example-single-js/compare/v1.8.0...v1.8.1) (2018-06-10)
+
+
+### Bug Fixes
+
+* oclif v1.8.1 ([f1d7eb0](https://github.com/oclif/example-single-js/commit/f1d7eb0))
+
 <a name="1.8.0"></a>
 # [1.8.0](https://github.com/oclif/example-single-js/compare/v1.7.46...v1.8.0) (2018-06-02)
 
