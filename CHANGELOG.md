@@ -1,3 +1,10 @@
+## [1.10.6](https://github.com/oclif/example-single-js/compare/v1.10.5...v1.10.6) (2018-09-14)
+
+
+### Bug Fixes
+
+* oclif v1.11.7 ([2e2ba13](https://github.com/oclif/example-single-js/commit/2e2ba13))
+
 ## [1.10.5](https://github.com/oclif/example-single-js/compare/v1.10.4...v1.10.5) (2018-09-14)
 
 
