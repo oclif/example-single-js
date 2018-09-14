@@ -15,10 +15,10 @@
   "devDependencies": {
     "@oclif/test": "^1",
     "chai": "^4",
-    "eslint": "^5",
-    "eslint-config-oclif": "^3",
+    "eslint": "^5.5",
+    "eslint-config-oclif": "^3.1",
     "mocha": "^5",
-    "nyc": "^12"
+    "nyc": "^13"
   },
   "engines": {
     "node": ">=8.0.0"
