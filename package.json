@@ -13,6 +13,7 @@
     "@oclif/plugin-help": "^2"
   },
   "devDependencies": {
+    "@oclif/dev-cli": "^1",
     "@oclif/test": "^1",
     "chai": "^4",
     "eslint": "^5.13",
@@ -39,6 +40,8 @@
   "repository": "oclif/example-single-js",
   "scripts": {
     "posttest": "eslint .",
-    "test": "nyc mocha --forbid-only \"test/**/*.test.js\""
+    "prepack": "oclif-dev readme",
+    "test": "nyc mocha --forbid-only \"test/**/*.test.js\"",
+    "version": "oclif-dev readme && git add README.md"
   }
 }
