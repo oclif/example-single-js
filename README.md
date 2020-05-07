@@ -22,7 +22,7 @@ $ npm install -g @oclif/example-single-js
 $ example-single-js COMMAND
 running command...
 $ example-single-js (-v|--version|version)
-@oclif/example-single-js/1.10.6 linux-x64 node-v13.3.0
+@oclif/example-single-js/1.10.6 linux-x64 node-v14.2.0
 $ example-single-js --help [COMMAND]
 USAGE
   $ example-single-js COMMAND
